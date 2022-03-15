@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Java Script</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <h1 id="titulo" >Quer aprender a programar, clique no botão abaixo. </a> </h1>
+
+
+    <button onclick="clicou()" >Clique aqui</button>
+
+    <div class="container-p">
+        <p id="paragrafo"> - Gostou da novidade, deixe um <em>"OK".</em></p>  
+        <button class="btn2" onclick="document.getElementById('paragrafo').innerHTML='Sigam: https://portfolioaironys.netlify.app/ '">Ok</button>
+
+    
+
+    </div>
+
+    <div container="eventos">
+        <h2>Clique nos botões para saber mais.</h2>
+        
+        <div >
+            <button class="item-btn" onclick="this.innerHTML='Vamos praticar JS ?'" >Me clique</button>
+        </div>
+
+
+        <h2>Passe o mouse dentro do quadrado</h2>
+        <div 
+            onclick="mouseclique()" id="mouse">
+        </div>
+
+        <div id="mouseover" onmouseover="console.log('Passou o mouse')"> Seja Bem vindo
+
+        </div>
+
+    </div>
+
+    <h3 id="h3" 
+    onmouseover="console.log('Passou o mouse')"
+    onmouseout="console.log('saiu com o mouse')"
+    
+    >Passe o mouse e clique e veja a saída no console</h3>
+   
+    
+    <script src="java.js" ></script>
+</body>
+</html>

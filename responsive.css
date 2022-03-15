@@ -1,0 +1,98 @@
+@media  screen and (max-width:400px){
+    h1{
+        font-size:22px;
+        margin: 30px;
+    }
+
+    button{
+        width: 120px !important;
+        height:40px !important;
+        margin-left: 120px !important;
+    }
+
+    h2{
+        font-size:21px;
+        width: 350px;
+    }
+    p{
+        font-size:15px;
+        margin-left:-40px;
+    }
+
+    header{
+        
+        background-size: cover;
+        width:95vw;
+        height:100px;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+
+    button, .btn2{
+        font-size:12px;
+        width:100px;
+        height:20px;
+        margin-left: 80px;
+        
+    }
+
+    .item-btn:hover{
+        margin-left: 20px;
+        border: 3px solid rgb(212, 192, 5);
+        color: rgb(221, 103, 24);
+    }
+}
+
+@media screen and (min-width:401px) and(max-width:800px){
+    h1{
+        font-size:16px;
+    }
+    p{
+        font-size:13px;
+    }
+
+    header{
+        
+        background-size: cover;
+        width:97vw;
+        height:170px;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1250px){
+   
+
+    header{
+        
+        background-size: cover;
+        width:97vw;
+        height:300px;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+}
+
+
+@media screen and (min-width:1251px){
+   
+
+    header{
+        
+        background-size: cover;
+        width:97vw;
+        height:500px;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+}
+
