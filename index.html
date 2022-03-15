@@ -32,6 +32,9 @@
             <button class="item-btn" onclick="this.innerHTML='Vamos praticar JS ?'" >Me clique</button>
         </div>
 
+        <div class="barra"></div>
+
+
 
         <h2>Passe o mouse dentro do quadrado</h2>
         <div 
@@ -52,8 +55,28 @@
 
     <div class="container-input"> 
         <h2>Clique com o teclado <br> e veja o resultado no seu console.</p> 
-        <input onkeydown="digitou()" id="teclado" type="text" name="usuario" placeholder="Segurando a tecla. ">
-        <input onkeyup="digitou2()" id="teclado2" type="text" name="usuario" placeholder="Clicando tecla por tecla">
+        <input onkeydown="digitou(event)" id="teclado" type="text" name="usuario" placeholder="Segurando a tecla. ">
+        
+        <input onkeyup="digitou2(event)" id="teclado2" type="text" name="usuario" placeholder="Clicando tecla por tecla">
+    </div>
+
+    <div class="barra"></div>
+
+    <h2 id="titulo5" class="estilos-btn">Escolha uma cor para o quadro.</h2> 
+
+    <div class="mudanca-estilos" >
+
+        <button onclick="azul()" class="azul" >Azul</button>
+        <button onclick="vermelho()" class="vermelho" >Vermelho</button>
+        <button onclick="verde()" class="verde">Verde</button>
+
+        <button onclick="laranja()" class="laranja" >laranja</button>
+        <button onclick="amarelo()" class="amarelo" >Amarelo</button>
+        <button onclick="rosa()" class="rosa">Rosa</button>
+        <button onclick="roxo()" class="roxo" >Roxo</button>
+        <button onclick="preto()" class="preto" >Preto</button>
+        <button onclick="branco()" class="branco">Branco</button>
+
     </div>
     
 

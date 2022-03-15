@@ -43,6 +43,18 @@
         border: 3px solid rgb(212, 192, 5);
         color: rgb(221, 103, 24);
     }
+
+    .mudanca-estilos{
+        display:grid !important;
+        grid-template-columns:100px 100px 100px !important ;
+        gap:10px;
+    
+    }
+
+    .mudanca-estilos button{
+        width:100px !important;
+        margin-left:-10px !important;
+    }
 }
 
 @media screen and (min-width:401px) 
@@ -64,6 +76,24 @@ and (max-width:800px){
         background-position: center;
         
     }
+
+
+    .mudanca-estilos{
+        display:grid !important;
+        grid-template-columns:125px 125px 125px  !important ;
+        gap:10px;
+        display: block;
+        margin: 0 auto;
+    
+    }
+
+    .mudanca-estilos button{
+        width:100px !important;
+        display: block;
+        margin: 10px auto;
+    }
+
+    
 }
 
 @media screen and (min-width:801px) and (max-width:1250px){

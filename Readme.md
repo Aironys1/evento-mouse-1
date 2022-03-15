@@ -4,3 +4,4 @@
 ### Imagem do projeto
 <img src="img/img-projeto.png" title="Imagem do projeto" alt="Imagem do projeto">
 
+### Iclusão de botões, para alterar as cores de fundo dos textos.
