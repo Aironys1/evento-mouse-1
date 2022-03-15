@@ -38,19 +38,30 @@
             onclick="mouseclique()" id="mouse">
         </div>
 
-        <div id="mouseover" onmouseover="console.log('Passou o mouse')"> Seja Bem vindo
-
-        </div>
+      
 
     </div>
 
     <h3 id="h3" 
-    onmouseover="console.log('Passou o mouse')"
-    onmouseout="console.log('saiu com o mouse')"
-    
-    >Passe o mouse e clique e veja a saída no console</h3>
-    
-    <script src="java.js" ></script>
+    onmouseover="console.log('Entrou com o mouse')"
+    onmouseout="console.log('Saiu com o mouse')">Entra com o mouse na zona azul. <br> 
+                                                 Ao entrar e sair, será exibido, <br>
+                                                 uma mensagem no console. 
+    </h3>
 
+
+    <div class="container-input"> 
+        <h2>Clique com o teclado <br> e veja o resultado no seu console.</p> 
+        <input onkeydown="digitou()" id="teclado" type="text" name="usuario" placeholder="Segurando a tecla. ">
+        <input onkeyup="digitou2()" id="teclado2" type="text" name="usuario" placeholder="Clicando tecla por tecla">
+    </div>
+    
+
+
+
+
+
+
+    <script  src="java.js" ></script>
 </body>
 </html>
